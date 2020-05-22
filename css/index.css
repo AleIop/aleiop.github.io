@@ -1,3 +1,4 @@
+/* GENERAL */
 body {
 	display: flex;
 	min-height: 100vh;
@@ -8,6 +9,30 @@ main {
 	flex: 1 0 auto;
 }
 
+/* PARALLAX */
 .parallax-container {
-	height: 50vh;
+	height: 75vh;
+	z-index: 1;
+}
+
+.parallax-container .responsive-img {
+	float: right;
+	width: 30vw!important;
+	width: 30vw!important;
+	margin-right: 15vw;
+	margin-top: 10vh;
+}
+
+.parallax > img {
+	width: 100vw;
+}
+
+/* SIDENAV */
+.sidenav-trigger {
+	position: fixed;
+	z-index: 2;
+}
+
+.sidenav .user-view img {
+	width: 100%;
 }

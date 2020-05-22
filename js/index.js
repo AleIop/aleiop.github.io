@@ -1,9 +1,19 @@
 $(document).ready(function(){
-	$('.parallax').parallax();
+    //Parallax init
+    $('.parallax').parallax();
+    
+    //Sidenav init
+    $('.sidenav').sidenav();
+
+    //Feature discovery init: menu button
+    var elemsTap = document.querySelector('#tap-menu');
+    var instancesTap = M.TapTarget.init(elemsTap, {});
+    instancesTap.open();
+    setTimeout(() => instancesTap.close(), 3000);
 
 	//Check to see if the window is top if not then display button
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 150) {
             $('.scrollToTop').fadeIn();
         } else {
             $('.scrollToTop').fadeOut();
