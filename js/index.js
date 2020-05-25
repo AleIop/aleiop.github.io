@@ -5,6 +5,9 @@ $(document).ready(function(){
     //Sidenav init
     $('.sidenav').sidenav();
 
+    //Tabs init
+    $('.tabs').tabs();
+
     //Feature discovery init: menu button
     var elemsTap = document.querySelector('#tap-menu');
     var instancesTap = M.TapTarget.init(elemsTap, {});
