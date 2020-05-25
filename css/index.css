@@ -63,6 +63,18 @@ main {
 	color: #ffab00;
 }
 
+.card-content > div {
+	height: 100%;
+}
+
+.tab i {
+	color: #ffab00!important;
+}
+
+.tabs .indicator {
+	background-color: #ffab00!important;
+}
+
 /* MORE RESPONSIVENESS */
 @media only screen and (max-width: 690px) {
 	/* PARALLAX */
