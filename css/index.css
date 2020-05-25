@@ -16,15 +16,21 @@ main {
 }
 
 .parallax-container .responsive-img {
-	float: right;
+	float: left;
 	width: 30vw!important;
-	width: 30vw!important;
-	margin-right: 15vw;
+	margin-left: 10vw;
 	margin-top: 10vh;
 }
 
 .parallax > img {
 	width: 100vw;
+}
+
+.parallax-container p {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 500;
 }
 
 /* SIDENAV */
@@ -36,3 +42,32 @@ main {
 .sidenav .user-view img {
 	width: 100%;
 }
+
+.sidenav i {
+	color: #ffab00!important;
+}
+
+.divider {
+	background-color: #ffab00;
+}
+
+.sidenav li:last-child {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 95%;
+	text-align: center;
+}
+
+/* CARDS */
+.card-content a {
+	color: #ffab00;
+}
+
+/* MORE RESPONSIVENESS */
+@media only screen and (max-width: 690px) {
+	/* PARALLAX */
+	.parallax-container .responsive-img {
+		float: right;
+		margin-right: 10vw;
+	}
+  }

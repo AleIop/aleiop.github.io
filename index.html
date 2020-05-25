@@ -4,6 +4,10 @@
 <head>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Extra icons-->
+	<link href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -25,15 +29,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 	<!-- Sidebar -->
-	<ul id="slide-out" class="sidenav">
+	<ul id="slide-out" class="sidenav blue-grey darken-3">
 			<li>
 				<div class="user-view">
 					<div class="background">
 						<img src="images/background2.jpg">
 					</div>
-					<a href="#user"><img class="circle" src="images/profileColor.jpg"></a>
-					<a href="#name"><span class="white-text name">Alessandro Iop</span></a>
-					<a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+					<img class="circle" src="images/profileColor.jpg">
+					<span class="white-text name">Alessandro Iop</span>
+					<span class="white-text email">KTH Royal Institute of Technology</span>
 				</div>
 			</li>
 			<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
@@ -41,8 +45,23 @@
 			<li>
 				<div class="divider"></div>
 			</li>
-			<li><a class="subheader">Subheader</a></li>
-			<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+			<li><a class="subheader amber-text text-accent-4">My contacts</a></li>
+			<li>
+				<a class="waves-effect white-text" href="mailto:aiop@kth.se">aiop@kth.se<i class="small material-icons amber-accent-4">email</i></a>
+			</li>
+			<li>
+				<a class="waves-effect white-text" href="https://www.linkedin.com/in/alessandro-iop">@alessandro-iop<i class="small mdi mdi-linkedin amber-accent-4"></i></a>
+			</li>
+			<li>
+				<a class="waves-effect white-text" href="https://github.com/AleIop">@AleIop<i class="small mdi mdi-github amber-accent-4"></i></a>
+			</li>
+			<li>
+				<a class="waves-effect white-text" href="https://www.messenger.com/t/iopalessandro">@iopalessandro<i class="small mdi mdi-facebook-messenger amber-accent-4"></i></a>
+			</li>
+			<li>
+				<a class="waves-effect white-text" href="https://t.me/aleiop">@aleiop<i class="small mdi mdi-telegram amber-accent-4"></i></a>
+			</li>
+			<li class="white-text"><div class="divider"></div>&copy; Copyright 2020 Alessandro Iop</li>
 	</ul>
 	<a id="menu" href="#" data-target="slide-out" class="sidenav-trigger"><i
 			class="medium material-icons waves-light amber-text text-accent-4">menu</i></a>
@@ -56,9 +75,17 @@
 	</div>
 
 	<main>
-		<div class="parallax-container">
+		<!-- Parallax image -->
+		<div class="parallax-container valign-wrapper">
 			<div class="parallax"><img src="images/background3.jpg"></div>
-			<img src="images/profileColor.jpg" alt="" class="circle responsive-img">
+			<div class="row">
+				<div class="col s12 m4 l4 xl4">
+					<img src="images/profileColor.jpg" alt="" class="circle responsive-img">
+				</div>
+				<div class="col s12 m8 l8 xl8" id="desc-col">
+					<p class="white-text flow-text">Hello! My name is Alessandro, I'm a Master's student in Interactive Media Technology at KTH Royal Institute of Technology. My biggest passions are photography, basketball, J.R.R. Tolkien's mythology and Formula 1.</p>
+				</div>
+			</div>
 		</div>
 
 		<!-- Main Content -->
@@ -73,16 +100,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Perception of Emotions in
+							<span class="card-title activator blue-grey-text text-darken-3">Perception of Emotions in
 								Knocking Sounds: an Evaluation Study<i class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DM2350?l=en">DM2350 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -94,16 +121,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Evaluation of Haptic Feedback in
+							<span class="card-title activator blue-grey-text text-darken-3">Evaluation of Haptic Feedback in
 								Android Widgets<i class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DH2670?l=en">DH2670 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -118,16 +145,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Neurotardis<i
+							<span class="card-title activator blue-grey-text text-darken-3">Neurotardis<i
 									class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DT2140?l=en">DT2140 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -142,16 +169,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Retrials<i
+							<span class="card-title activator blue-grey-text text-darken-3">Retrials<i
 									class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DH2321?l=en">DH2321 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -166,16 +193,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Catch Me If You Can<i
+							<span class="card-title activator blue-grey-text text-darken-3">Catch Me If You Can<i
 									class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DM2518?l=en">DM2518 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -190,16 +217,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Hexalights<i
+							<span class="card-title activator blue-grey-text text-darken-3">Hexalights<i
 									class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/MF2092?l=en">MF2092 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -214,16 +241,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Luma<i
+							<span class="card-title activator blue-grey-text text-darken-3">Luma<i
 									class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DM2601?l=en">DM2601 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
@@ -238,16 +265,16 @@
 							<img class="activator" src="images/car.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Blobify<i
+							<span class="card-title activator blue-grey-text text-darken-3">Blobify<i
 									class="material-icons right">more_vert</i></span>
 							<p><a href="https://www.kth.se/student/kurser/kurs/DH2642?l=en">DH2642 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
-							<span class="new badge"></span>
+							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i
+							<span class="card-title blue-grey-text text-darken-3">Card Title<i
 									class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.
 							</p>
