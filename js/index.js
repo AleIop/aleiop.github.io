@@ -8,6 +8,9 @@ $(document).ready(function(){
     //Tabs init
     $('.tabs').tabs();
 
+    //Modal init
+    $('.modal').modal();
+
     //Feature discovery init: menu button
     var elemsTap = document.querySelector('#tap-menu');
     var instancesTap = M.TapTarget.init(elemsTap, {});

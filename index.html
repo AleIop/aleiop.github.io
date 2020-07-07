@@ -41,7 +41,10 @@
 				<span class="white-text email">KTH Royal Institute of Technology</span>
 			</div>
 		</li>
-		<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+		<li>
+			<!-- Modal Trigger -->
+			<a class="waves-effect waves-light btn modal-trigger" href="#modal1">About me</a>
+		</li>
 		<li><a href="#!">Second Link</a></li>
 		<li>
 			<div class="divider"></div>
@@ -82,6 +85,31 @@
 		</div>
 	</div>
 
+	<!-- Modal Structure -->
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>About me</h4>
+			<p>I am currently enrolled at KTH Royal Institute of Technology (Stockholm, Sweden) as a Master's student in
+				Interactive Media Technology, Visual Media Track. The programme focuses on design, development and
+				evaluation of interactive products, services and media technology. I expect to graduate in 2021.
+			</p>
+			<p>I graduated at the University of Udine (Italy) in 2019 with a Bachelor degree in Web and Multimedia
+				Technologies, with a final grade of 99/110. The programme focused heavily on web development &ndash;
+				particularly front-end &ndash; multimedia production and analysis, human-computer interaction with a
+				wide
+				range of practical skills to be learned and many subject typical of a more traditional Computer Science
+				programme.</p>
+			<p>Previously, in 2015, I graduated from I.S.I.S &quot;Arturo Malignani&quot; (Udine, Italy) with a final
+				grade of 84/100. It is a &quot;liceo delle scienze applicate&quot; &ndash; an applied sciences
+				high school &ndash; that revolves around scientific subjects such as chemistry, biology, physics,
+				mathematics and
+				computer science.</p>
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+		</div>
+	</div>
+
 	<main>
 		<!-- Parallax image -->
 		<div class="parallax-container valign-wrapper">
@@ -101,9 +129,7 @@
 		<!-- Main Content -->
 		<div class="container" id="projects">
 			<div class="row">
-				<!-- Perception of Emotions in Knocking Sounds: an Evaluation Study
-					 +
-					 Evaluation of Haptic Feedback in Android Widgets -->
+				<!-- Perception of Emotions in Knocking Sounds: an Evaluation Study -->
 				<div class="col s12 m6 l4 xl4">
 					<div class="card sticky-action large z-depth-2">
 						<div class="card-image waves-effect waves-block waves-light">
@@ -115,48 +141,127 @@
 							<p><a href="https://www.kth.se/student/kurser/kurs/DM2350?l=en">DM2350 @ KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
+							<a href="https://smc2020torino.it/adminupload/file/SMCCIM_2020_paper_95.pdf">Online
+								paper</a>
 							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
 							<div class="card-tabs">
 								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dm2350-desc"><i
-												class="material-icons small">info</i></a></li>
+									<li class="tab"><a href="#dm2350-desc"><i class="material-icons small">info</i></a>
+									</li>
 									<li class="tab"><a href="#dm2350-coll"><i
 												class="material-icons small">people</i></a></li>
 									<li class="tab"><a href="#dm2350-res"><i
 												class="material-icons small">attachment</i></a></li>
-									
-									<span class="card-title blue-grey-text text-darken-3"><i class="material-icons right">close</i></span>
+
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
 								</ul>
 							</div>
 
 							<div class="card-content grey lighten-4">
 								<div id="dm2350-desc">
 									<span class="card-title blue-grey-text text-darken-3">Description</span>
-									<p>In this study, we create a data set of knocking actions performed
-										with different emotional intentions. We then verify,
-										through a listening test, whether these emotional intentions
-										are perceived through listening to sound alone. Finally,
-										we perform an acoustic analysis of the experimental
-										data set to identify whether emotion-specific acoustic patterns
-										emerge. The results show that emotional intentions
-										are correctly perceived for some emotions. Additionally,
-										the emerging emotion-specific acoustic patterns confirm,
-										at least in part, findings from previous research in speech
-										and music performance.
+									<p>
+										Knocking sounds are highly meaningful everyday sounds. There exist many ways of
+										knocking, expressing important information about the state of the person
+										knocking and their relationship with the other side of the door. In media
+										production, knocking sounds are important storytelling devices: they allow
+										transitions to new scenes and create expectations in the audience. Despite this
+										important role, knocking sounds have rarely been the focus of research. In this
+										study, we create a data set of knocking actions performed with different
+										emotional intentions. We then verify, through a listening test, whether these
+										emotional intentions are perceived through listening to sound alone. Finally, we
+										perform an acoustic analysis of the experimental data set to identify
+										whether emotion-specific acoustic patterns emerge. The results show that
+										emotional intentions are correctly perceived for some emotions. Additionally,
+										the emerging emotion-specific acoustic patterns confirm, at least in part,
+										findings from previous research in speech and music performance.
 									</p>
 								</div>
 
 								<div id="dm2350-coll">
+									<span class="card-title blue-grey-text text-darken-3">Collaborators</span>
+									<ul>
+										<li>Alessandro Iop</li>
+										<li>Malcolm Houel</li>
+										<li>Alfred Berg</li>
+										<li>Abhilash Arun</li>
+										<li>Sandra Pauletto</li>
+										<li>Adri&aacute;n Barahona-R&iacute;os</li>
+									</ul>
+								</div>
+
+								<div id="dm2350-res">
+									<span class="card-title blue-grey-text text-darken-3">Resources</span>
+									<ul>
+										<li><a href="https://smc2020torino.it/uk/default.asp?PID=1">SMC 2020 website</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Neurotardis -->
+				<div class="col s12 m6 l4 xl4">
+					<div class="card sticky-action large z-depth-2">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/DT2140.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator blue-grey-text text-darken-3">Neurotardis<i
+									class="material-icons right">more_vert</i></span>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DT2140?l=en">DT2140 @ KTH</a></p>
+						</div>
+						<div class="card-action amber-accent-4">
+							<a href="#">This is a link</a>
+							<span class="new badge blue-grey darken-3"></span>
+						</div>
+						<div class="card-reveal">
+							<div class="card-tabs">
+								<ul class="tabs tabs-fixed-width">
+									<li class="tab"><a href="#dt2140-desc"><i class="material-icons small">info</i></a>
+									</li>
+									<li class="tab"><a href="#dt2140-coll"><i
+												class="material-icons small">people</i></a></li>
+									<li class="tab"><a href="#dt2140-res"><i
+												class="material-icons small">attachment</i></a></li>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
+								</ul>
+							</div>
+
+							<div class="card-content grey lighten-4">
+								<div id="dt2140-desc">
+									<span class="card-title blue-grey-text text-darken-3">Description</span>
+									<p>In this project, we created an interactive visualization, accessible through a
+										web browser, to research all the clinical trials currently registered in the
+										ClinicalTrials.gov website. The users it addresses &ndash; doctors as well as
+										researchers and patients &ndash; can freely explore the dataset by navigating to
+										and, interacting with, one of the two views provided. The first one is a
+										geographical map, on which all results obtained after querying the database via
+										a form are overlayed as colored dots on the position where the clinical trials
+										are being carried; it also includes a zoomable timeline with the starting dates
+										of all the results provided. The second view is a hierarchical treemap that
+										enables exploration of the classification of all diseases and conditions made by
+										ClinicalTrials.gov that allows users to assess a first level of similarity
+										between nodes. Results from querying the database through the form, as for the
+										map view, are presented with more details as a scrollable and paginated list on
+										the right side of the web page.
+									</p>
+								</div>
+
+								<div id="dt2140-coll">
 									<span class="card-title blue-grey-text text-darken-3">Collaborators</span>
 									<p>Alessandro Iop, Malcolm Houel, Alfred Berg, Abhilash Arun, Sandra Pauletto,
 										Adri&aacute;n Barahona-R&iacute;os.
 									</p>
 								</div>
 
-								<div id="dm2350-res">
+								<div id="dt2140-res">
 									<span class="card-title blue-grey-text text-darken-3">Resources</span>
 									<p>Add a few links here.
 									</p>
@@ -164,10 +269,79 @@
 							</div>
 						</div>
 					</div>
+				</div>
 
+				<!-- Retrials -->
+				<div class="col s12 m6 l4 xl4">
 					<div class="card sticky-action large z-depth-2">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
+							<img class="activator" src="images/DH2321.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator blue-grey-text text-darken-3">Retrials<i
+									class="material-icons right">more_vert</i></span>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DH2321?l=en">DH2321 @ KTH</a></p>
+						</div>
+						<div class="card-action amber-accent-4">
+							<a href="#">This is a link</a>
+							<span class="new badge blue-grey darken-3"></span>
+						</div>
+						<div class="card-reveal">
+							<div class="card-tabs">
+								<ul class="tabs tabs-fixed-width">
+									<li class="tab"><a href="#dh2321-desc"><i class="material-icons small">info</i></a>
+									</li>
+									<li class="tab"><a href="#dh2321-coll"><i
+												class="material-icons small">people</i></a></li>
+									<li class="tab"><a href="#dh2321-res"><i
+												class="material-icons small">attachment</i></a></li>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
+								</ul>
+							</div>
+
+							<div class="card-content grey lighten-4">
+								<div id="dh2321-desc">
+									<span class="card-title blue-grey-text text-darken-3">Description</span>
+									<p>In this project, we created an interactive visualization, accessible through a
+										web browser, to research all the clinical trials currently registered in the
+										ClinicalTrials.gov website. The users it addresses &ndash; doctors as well as
+										researchers and patients &ndash; can freely explore the dataset by navigating to
+										and, interacting with, one of the two views provided. The first one is a
+										geographical map, on which all results obtained after querying the database via
+										a form are overlayed as colored dots on the position where the clinical trials
+										are being carried; it also includes a zoomable timeline with the starting dates
+										of all the results provided. The second view is a hierarchical treemap that
+										enables exploration of the classification of all diseases and conditions made by
+										ClinicalTrials.gov that allows users to assess a first level of similarity
+										between nodes. Results from querying the database through the form, as for the
+										map view, are presented with more details as a scrollable and paginated list on
+										the right side of the web page.
+									</p>
+								</div>
+
+								<div id="dh2321-coll">
+									<span class="card-title blue-grey-text text-darken-3">Collaborators</span>
+									<p>Alessandro Iop, Malcolm Houel, Alfred Berg, Abhilash Arun, Sandra Pauletto,
+										Adri&aacute;n Barahona-R&iacute;os.
+									</p>
+								</div>
+
+								<div id="dh2321-res">
+									<span class="card-title blue-grey-text text-darken-3">Resources</span>
+									<p>Add a few links here.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Evaluation of Haptic Feedback in Android Widgets -->
+				<div class="col s12 m6 l4 xl4">
+					<div class="card sticky-action large z-depth-2">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/DH2670.png">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Evaluation of Haptic
@@ -182,13 +356,14 @@
 						<div class="card-reveal">
 							<div class="card-tabs">
 								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dh2670-desc"><i
-												class="material-icons small">info</i></a></li>
+									<li class="tab"><a href="#dh2670-desc"><i class="material-icons small">info</i></a>
+									</li>
 									<li class="tab"><a href="#dh2670-coll"><i
 												class="material-icons small">people</i></a></li>
 									<li class="tab"><a href="#dh2670-res"><i
 												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
 								</ul>
 							</div>
 
@@ -226,135 +401,11 @@
 					</div>
 				</div>
 
-				<!-- Neurotardis and retrials-->
-				<div class="col s12 m6 l4 xl4">
-					<div class="card sticky-action large z-depth-2">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator blue-grey-text text-darken-3">Neurotardis<i
-									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DT2140?l=en">DT2140 @ KTH</a></p>
-						</div>
-						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
-							<span class="new badge blue-grey darken-3"></span>
-						</div>
-						<div class="card-reveal">
-							<div class="card-tabs">
-								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dt2140-desc"><i
-												class="material-icons small">info</i></a></li>
-									<li class="tab"><a href="#dt2140-coll"><i
-												class="material-icons small">people</i></a></li>
-									<li class="tab"><a href="#dt2140-res"><i
-												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
-								</ul>
-							</div>
-
-							<div class="card-content grey lighten-4">
-								<div id="dt2140-desc">
-									<span class="card-title blue-grey-text text-darken-3">Description</span>
-									<p>In this study, we create a data set of knocking actions performed
-										with different emotional intentions. We then verify,
-										through a listening test, whether these emotional intentions
-										are perceived through listening to sound alone. Finally,
-										we perform an acoustic analysis of the experimental
-										data set to identify whether emotion-specific acoustic patterns
-										emerge. The results show that emotional intentions
-										are correctly perceived for some emotions. Additionally,
-										the emerging emotion-specific acoustic patterns confirm,
-										at least in part, findings from previous research in speech
-										and music performance.
-									</p>
-								</div>
-
-								<div id="dt2140-coll">
-									<span class="card-title blue-grey-text text-darken-3">Collaborators</span>
-									<p>Alessandro Iop, Malcolm Houel, Alfred Berg, Abhilash Arun, Sandra Pauletto,
-										Adri&aacute;n Barahona-R&iacute;os.
-									</p>
-								</div>
-
-								<div id="dt2140-res">
-									<span class="card-title blue-grey-text text-darken-3">Resources</span>
-									<p>Add a few links here.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Retrials -->
-				<div class="col s12 m6 l4 xl4">
-					<div class="card sticky-action large z-depth-2">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator blue-grey-text text-darken-3">Retrials<i
-									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DH2321?l=en">DH2321 @ KTH</a></p>
-						</div>
-						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
-							<span class="new badge blue-grey darken-3"></span>
-						</div>
-						<div class="card-reveal">
-							<div class="card-tabs">
-								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dh2321-desc"><i
-												class="material-icons small">info</i></a></li>
-									<li class="tab"><a href="#dh2321-coll"><i
-												class="material-icons small">people</i></a></li>
-									<li class="tab"><a href="#dh2321-res"><i
-												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
-								</ul>
-							</div>
-
-							<div class="card-content grey lighten-4">
-								<div id="dh2321-desc">
-									<span class="card-title blue-grey-text text-darken-3">Description</span>
-									<p>In this study, we create a data set of knocking actions performed
-										with different emotional intentions. We then verify,
-										through a listening test, whether these emotional intentions
-										are perceived through listening to sound alone. Finally,
-										we perform an acoustic analysis of the experimental
-										data set to identify whether emotion-specific acoustic patterns
-										emerge. The results show that emotional intentions
-										are correctly perceived for some emotions. Additionally,
-										the emerging emotion-specific acoustic patterns confirm,
-										at least in part, findings from previous research in speech
-										and music performance.
-									</p>
-								</div>
-
-								<div id="dh2321-coll">
-									<span class="card-title blue-grey-text text-darken-3">Collaborators</span>
-									<p>Alessandro Iop, Malcolm Houel, Alfred Berg, Abhilash Arun, Sandra Pauletto,
-										Adri&aacute;n Barahona-R&iacute;os.
-									</p>
-								</div>
-
-								<div id="dh2321-res">
-									<span class="card-title blue-grey-text text-darken-3">Resources</span>
-									<p>Add a few links here.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<!-- Catch Me If You Can -->
 				<div class="col s12 m6 l4 xl4">
 					<div class="card sticky-action large z-depth-2">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
+							<img class="activator" src="images/DM2518.png">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Catch Me If You Can<i
@@ -368,13 +419,14 @@
 						<div class="card-reveal">
 							<div class="card-tabs">
 								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dm2518-desc"><i
-												class="material-icons small">info</i></a></li>
+									<li class="tab"><a href="#dm2518-desc"><i class="material-icons small">info</i></a>
+									</li>
 									<li class="tab"><a href="#dm2518-coll"><i
 												class="material-icons small">people</i></a></li>
 									<li class="tab"><a href="#dm2518-res"><i
 												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
 								</ul>
 							</div>
 
@@ -416,7 +468,7 @@
 				<div class="col s12 m6 l4 xl4">
 					<div class="card sticky-action large z-depth-2">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
+							<img class="activator" src="images/MF2092.jpeg">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Hexalights<i
@@ -430,13 +482,14 @@
 						<div class="card-reveal">
 							<div class="card-tabs">
 								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#mf2092-desc"><i
-												class="material-icons small">info</i></a></li>
+									<li class="tab"><a href="#mf2092-desc"><i class="material-icons small">info</i></a>
+									</li>
 									<li class="tab"><a href="#mf2092-coll"><i
 												class="material-icons small">people</i></a></li>
 									<li class="tab"><a href="#mf2092-res"><i
 												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
 								</ul>
 							</div>
 
@@ -478,7 +531,7 @@
 				<div class="col s12 m6 l4 xl4">
 					<div class="card sticky-action large z-depth-2">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
+							<img class="activator" src="images/DM2601.png">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Luma<i
@@ -492,13 +545,14 @@
 						<div class="card-reveal">
 							<div class="card-tabs">
 								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dm2601-desc"><i
-												class="material-icons small">info</i></a></li>
+									<li class="tab"><a href="#dm2601-desc"><i class="material-icons small">info</i></a>
+									</li>
 									<li class="tab"><a href="#dm2601-coll"><i
 												class="material-icons small">people</i></a></li>
 									<li class="tab"><a href="#dm2601-res"><i
 												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
 								</ul>
 							</div>
 
@@ -540,7 +594,7 @@
 				<div class="col s12 m6 l4 xl4">
 					<div class="card sticky-action large z-depth-2">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="images/car.jpg">
+							<img class="activator" src="images/DH2642.png">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Blobify<i
@@ -554,13 +608,14 @@
 						<div class="card-reveal">
 							<div class="card-tabs">
 								<ul class="tabs tabs-fixed-width">
-									<li class="tab"><a href="#dh2642-desc"><i
-												class="material-icons small">info</i></a></li>
+									<li class="tab"><a href="#dh2642-desc"><i class="material-icons small">info</i></a>
+									</li>
 									<li class="tab"><a href="#dh2642-coll"><i
 												class="material-icons small">people</i></a></li>
 									<li class="tab"><a href="#dh2642-res"><i
 												class="material-icons small">attachment</i></a></li>
-									<i class="material-icons right">close</i>
+									<span class="card-title blue-grey-text text-darken-3"><i
+											class="material-icons right">close</i></span>
 								</ul>
 							</div>
 

@@ -75,6 +75,10 @@ main {
 	background-color: #ffab00!important;
 }
 
+.card-content {
+	overflow-y: scroll!important;
+}
+
 /* MORE RESPONSIVENESS */
 @media only screen and (max-width: 690px) {
 	/* PARALLAX */
