@@ -9,6 +9,10 @@ main {
 	flex: 1 0 auto;
 }
 
+.waves-effect.waves-light:hover {
+	background-color: #ffd8a6!important;
+}
+
 /* PARALLAX */
 .parallax-container {
 	height: 75vh;
@@ -36,7 +40,7 @@ main {
 /* SIDENAV */
 .sidenav-trigger {
 	position: fixed;
-	z-index: 2;
+	z-index: 5;
 }
 
 .sidenav .user-view img {
@@ -77,6 +81,10 @@ main {
 
 .card-content {
 	overflow-y: scroll!important;
+}
+
+.clickable:hover {
+	color: #ffd8a6;
 }
 
 /* MORE RESPONSIVENESS */

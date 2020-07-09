@@ -23,6 +23,15 @@
 
 	<!-- Extra JS -->
 	<script type="text/javascript" src="js/index.js"></script>
+
+	<!-- Title of the page -->
+	<title>Alessandro Iop's portfolio</title>
+
+	<!-- Favicon(s) -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
 </head>
 
 <body class="blue-grey darken-3">
@@ -43,9 +52,15 @@
 		</li>
 		<li>
 			<!-- Modal Trigger -->
-			<a class="waves-effect waves-light btn modal-trigger" href="#modal1">About me</a>
+			<a class="btn modal-trigger blue-grey-text text-darken-3 amber accent-4 waves-effect waves-light"
+				href="#modal1"><i class="tiny material-icons blue-grey-text text-darken-3">info</i>About me</a>
 		</li>
-		<li><a href="#!">Second Link</a></li>
+		<li>
+			<!-- Download CV -->
+			<a class="btn blue-grey-text text-darken-3 amber accent-4 waves-effect waves-light"
+				href="/Iop_Alessandro_CV.pdf" download><i
+					class="tiny material-icons blue-grey-text text-darken-3">file_download</i>Download my CV</a>
+		</li>
 		<li>
 			<div class="divider"></div>
 		</li>
@@ -87,7 +102,7 @@
 
 	<!-- Modal Structure -->
 	<div id="modal1" class="modal">
-		<div class="modal-content">
+		<div class="modal-content blue-grey-text text-darken-3">
 			<h4>About me</h4>
 			<p>I am currently enrolled at KTH Royal Institute of Technology (Stockholm, Sweden) as a Master's student in
 				Interactive Media Technology, Visual Media Track. The programme focuses on design, development and
@@ -106,7 +121,7 @@
 				computer science.</p>
 		</div>
 		<div class="modal-footer">
-			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+			<a href="#!" class="modal-close waves-effect waves-light btn-flat">Close</a>
 		</div>
 	</div>
 
@@ -138,7 +153,8 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Perception of Emotions in
 								Knocking Sounds: an Evaluation Study<i class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DM2350?l=en">DM2350 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DM2350?l=en" class="clickable">DM2350 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="https://smc2020torino.it/adminupload/file/SMCCIM_2020_paper_95.pdf">Online
@@ -196,7 +212,14 @@
 								<div id="dm2350-res">
 									<span class="card-title blue-grey-text text-darken-3">Resources</span>
 									<ul>
-										<li><a href="https://smc2020torino.it/uk/default.asp?PID=1">SMC 2020 website</a>
+										<li><a href="https://smc2020torino.it/uk/default.asp?PID=1"
+												class="clickable">SMC 2020 website</a>
+										</li>
+										<li><a href="#"
+											class="clickable">Poster</a>
+										</li>
+										<li><a href="#"
+											class="clickable">Project report</a>
 										</li>
 									</ul>
 								</div>
@@ -214,10 +237,11 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Neurotardis<i
 									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DT2140?l=en">DT2140 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DT2140?l=en" class="clickable">DT2140 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
+							<a href="https://github.com/AleIop/DT2140_project">Code on Github</a>
 							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
@@ -237,34 +261,46 @@
 							<div class="card-content grey lighten-4">
 								<div id="dt2140-desc">
 									<span class="card-title blue-grey-text text-darken-3">Description</span>
-									<p>In this project, we created an interactive visualization, accessible through a
-										web browser, to research all the clinical trials currently registered in the
-										ClinicalTrials.gov website. The users it addresses &ndash; doctors as well as
-										researchers and patients &ndash; can freely explore the dataset by navigating to
-										and, interacting with, one of the two views provided. The first one is a
-										geographical map, on which all results obtained after querying the database via
-										a form are overlayed as colored dots on the position where the clinical trials
-										are being carried; it also includes a zoomable timeline with the starting dates
-										of all the results provided. The second view is a hierarchical treemap that
-										enables exploration of the classification of all diseases and conditions made by
-										ClinicalTrials.gov that allows users to assess a first level of similarity
-										between nodes. Results from querying the database through the form, as for the
-										map view, are presented with more details as a scrollable and paginated list on
-										the right side of the web page.
+									<p>In this project, we designed, developed and evaluated a interactive VR
+										visualization of the recorded activity of a spiking neural network, provided by
+										the Computational Neuroscience division of KTH's School of Electrical
+										Engineering and Computer Science (EECS). The offline, desktop-based application
+										is an improved version of an existing project presented by Vincent Wong at the
+										2017 C-Awards, deployed on the HTC VIVE platform. It displays an abstract,
+										animated and sonified representation of different structures in the neural
+										network &ndash; namely pyramid cells, basket cells, minicolumns and hypercolumns
+										&ndash; along with their activations over time. Redundant controls for
+										navigation, triggering of different views and playback control are provided via
+										the VIVE controllers and keyboard. Development was done in Unity using SteamVR
+										and Steam Audio, and the subsequent user evaluation involved subject matter
+										experts (SMEs) as well as students from the Information Visualization class of
+										2020.
 									</p>
 								</div>
 
 								<div id="dt2140-coll">
 									<span class="card-title blue-grey-text text-darken-3">Collaborators</span>
-									<p>Alessandro Iop, Malcolm Houel, Alfred Berg, Abhilash Arun, Sandra Pauletto,
-										Adri&aacute;n Barahona-R&iacute;os.
-									</p>
+									<ul>
+										<li>Alessandro Iop</li>
+										<li>Harsh Kakroo</li>
+										<li>Alfred Berg</li>
+										<li>Fabio Cassisa</li>
+									</ul>
 								</div>
 
 								<div id="dt2140-res">
 									<span class="card-title blue-grey-text text-darken-3">Resources</span>
-									<p>Add a few links here.
-									</p>
+									<ul>
+										<li><a href="#"
+												class="clickable">Project report</a>
+										</li>
+										<li><a href="#"
+											class="clickable">Presentation slideshow</a>
+										</li>
+										<li><a href="#"
+											class="clickable">Presentation video</a>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -280,10 +316,11 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Retrials<i
 									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DH2321?l=en">DH2321 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DH2321?l=en" class="clickable">DH2321 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
+							<a href="https://github.com/AleIop/InfoVizProject">Code on Github</a>
 							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
@@ -347,10 +384,11 @@
 							<span class="card-title activator blue-grey-text text-darken-3">Evaluation of Haptic
 								Feedback in
 								Android Widgets<i class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DH2670?l=en">DH2670 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DH2670?l=en" class="clickable">DH2670 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
+							<a href="https://github.com/FedericoLandorno/HapticFeedbackApp">Code on Github</a>
 							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
@@ -410,10 +448,11 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Catch Me If You Can<i
 									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DM2518?l=en">DM2518 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DM2518?l=en" class="clickable">DM2518 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
+							<a href="https://github.com/AleIop/MobileDevelopment">Code on Github</a>
 							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
@@ -473,7 +512,8 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Hexalights<i
 									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/MF2092?l=en">MF2092 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/MF2092?l=en" class="clickable">MF2092 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
@@ -536,7 +576,8 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Luma<i
 									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DM2601?l=en">DM2601 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DM2601?l=en" class="clickable">DM2601 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
 							<a href="#">This is a link</a>
@@ -599,10 +640,11 @@
 						<div class="card-content">
 							<span class="card-title activator blue-grey-text text-darken-3">Blobify<i
 									class="material-icons right">more_vert</i></span>
-							<p><a href="https://www.kth.se/student/kurser/kurs/DH2642?l=en">DH2642 @ KTH</a></p>
+							<p><a href="https://www.kth.se/student/kurser/kurs/DH2642?l=en" class="clickable">DH2642 @
+									KTH</a></p>
 						</div>
 						<div class="card-action amber-accent-4">
-							<a href="#">This is a link</a>
+							<a href="https://github.com/AleIop/IPROG2020">Code on Github</a>
 							<span class="new badge blue-grey darken-3"></span>
 						</div>
 						<div class="card-reveal">
@@ -656,7 +698,8 @@
 
 			<!-- Floating button -->
 			<div class="fixed-action-btn">
-				<a id="backtotop" class="btn-floating btn-large amber accent-4 scrollToTop" href="#">
+				<a id="backtotop" class="btn-floating btn-large waves-effect waves-light amber accent-4 scrollToTop"
+					href="#">
 					<i class="large material-icons blue-grey-text text-darken-3">arrow_upward</i>
 				</a>
 			</div>
